@@ -187,3 +187,14 @@ header {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+footer {
+    background-color: #1f2937;
+    padding: 3%;
+}
+
+footer p {
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}

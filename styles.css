@@ -146,4 +146,41 @@ header {
 .call-to-action-bg {
     background-color: #F9FAF8;
     height: 300px;
+    display: flex;
+}
+
+.call-to-action-fg {
+    background-color:#3882f6;
+    height: 30%;
+    align-items: center;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    border-radius: 0.5em;
+    padding: 30px;
+}
+
+.call-to-action-fg .text {
+    margin-right: 80px;
+}
+
+.call-to-action-fg .main {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.call-to-action-fg .sub {
+    color: #e5e7eb;
+}
+
+.call-to-action-fg button {
+    color: #f9faf8;
+    background-color: #3882f6;
+    font-size: 16px;
+    border: 2px solid #F9FAF8;
+    border-radius: .5em;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
 }

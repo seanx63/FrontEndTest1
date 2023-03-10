@@ -1,0 +1,149 @@
+* {
+    font-family: roboto;
+    margin: 0;
+}
+
+header,
+.header-and-hero ul,
+.hero {
+    display: flex;
+}
+
+.header-and-hero {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-and-hero {
+    background-color: #1f2937;
+
+}
+
+#header-logo {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    white-space: nowrap;
+}
+
+header {
+    flex-wrap: nowrap;
+    padding: 15px;
+}
+
+.header-link {
+    list-style: none;
+}
+
+.header-link>a {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+    white-space: nowrap;
+    margin: 20px;
+
+}
+
+.header-and-hero .spacer {
+    flex-basis: 500px;
+}
+
+.hero {
+    padding: 50px;
+}
+
+
+
+.hero .main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 5px;
+}
+
+.hero .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 5px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: none;
+    border-radius: .5em;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 5px;
+}
+
+.hero>img {
+    width: 45%;
+}
+
+.misc-images {
+    background-color: #F9FAF8;
+    height: 400px;
+
+}
+
+.misc-images .information-header {
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.misc-images .images {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 8%;
+}
+
+.misc-images .image {
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.misc-images img {
+    width: 80%;
+    border: 5px solid #3882f6;
+    border-radius: .5em;
+}
+
+.misc-images .image p {
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+    padding: 100px;
+    padding-bottom: 0px;
+    display: flex;
+}
+
+.quote .sig {
+    margin-left: 70%;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 24px;
+    padding-bottom: 80px;
+}
+
+.call-to-action-bg {
+    background-color: #F9FAF8;
+    height: 300px;
+}
